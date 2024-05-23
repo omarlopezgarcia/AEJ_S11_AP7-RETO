@@ -42,6 +42,3 @@ jobs:
   
       - name: Push Docker image to Docker Hub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/aej_s11_ap7_reto:latest
-
-
-
